@@ -1,0 +1,14 @@
+[workspace]
+members = []
+resolver = "2"
+
+[workspace.dependencies]
+
+[workspace.lints.clippy]
+all = "warn"
+pedantic = "warn"
+
+[workspace.package]
+edition = "2021"
+version = "0.0.0"
+authors = ["pranc1ngpegasus"]
